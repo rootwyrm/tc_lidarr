@@ -5,7 +5,7 @@
 * https://ci.appveyor.com/project/lidarr/lidarr/build/artifacts
 
 # Connection Information
-https://ContainerHost:8989/ - WORK IN PROGRESS
+https://ContainerHost:8686/ - WORK IN PROGRESS
 
 # Sample Setup
-docker create -p 8989:8989 -v /media/config/lidarr:/config -v /media/download:/downloads -v /media/music:/media/music --name=lidtest docker.io/rootwyrm/tc_lidarr
+docker create -p 8686:8686 -v /media/config/lidarr:/config -v /media/download:/downloads -v /media/music:/media/music --name=lidtest docker.io/rootwyrm/tc_lidarr
